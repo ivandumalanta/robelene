@@ -88,11 +88,11 @@ function startTime() {
   s = checkTime(s);
   document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
   setTimeout(startTime, 1000);
-  if (m == 14) {
+  if (h == 0) {
     greetings = "Happy First Monthsary Adi";
     morningMessage = "This day will be the first page of our relationship and i know na madami pa tayong pagdadaanan at sa mga pagdadaanan natin sabay natin iyon lalagpasan, always remember na nandito ako palagi na sumusupporta at nagmamahal ako ng tunay. Sobrang grateful ako na nakilala kita, it was unexpected at pinapasalamat ko sa Diyos yun, bigyan pa naman ako ng napakagandang girlfriend. Just stay with me adi until our monthsaries will turn to wedding anniversay, mahal na mahal kita adi";
   } 
-   if (m == 14) {
+   if (h == 0) {
     document.getElementById('greet').innerHTML = greetings;
     document.getElementById('content').innerHTML = morningMessage;
   }
